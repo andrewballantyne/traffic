@@ -4,10 +4,7 @@ import { RenderImageData } from '../types/core/RenderData';
 
 export default class EngineHelp {
   public static BASE_LEVEL:number = 0;
-  public static CHARACTER_IMAGE_ID:string = 'character';
-  public static TILE_GRASS_IMAGE_ID:string = 'grass';
-  public static TILE_DIRT_IMAGE_ID:string = 'dirt';
-  public static FACE_CLIFF_IMAGE_ID:string = 'cliff';
+  public static ATLAS_TILES:string = 'tiles';
 
   public static tileDimensions:Size = { height: 64, width: 64 };
   public static zHeightOffset:number = 20;
@@ -22,9 +19,9 @@ export default class EngineHelp {
     EngineHelp.imageData = {
       atlasData: [
         {
-          id: 'sampleSet',
-          image: '../assets/sampleSet.png',
-          json: '../assets/sampleSet.json',
+          id: EngineHelp.ATLAS_TILES,
+          image: '../assets/tiles.png',
+          json: '../assets/tiles.json',
         },
       ],
     };

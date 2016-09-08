@@ -195,10 +195,10 @@
 "meta": {
 	"app": "http://www.codeandweb.com/texturepacker",
 	"version": "1.0",
-	"image": "sampleSet.png",
+	"image": "tiles.png",
 	"format": "RGBA8888",
 	"size": {"w":403,"h":776},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:e2542be71f42e8123f63dd3a5749e9d4:8792ea7341fd3f1473681bd1092018b7:5c836b331af8120b8511feea88141ff9$"
+	"smartupdate": "$TexturePacker:SmartUpdate:2f3423ec272f8fd94dca2711b5ba4bc0:8792ea7341fd3f1473681bd1092018b7:accbe1e7e294ded8391337fc1c446319$"
 }
 }

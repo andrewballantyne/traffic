@@ -1,4 +1,4 @@
-import { GridStructureDefinition } from '../types/core/GridTypes';
+import { GridRenderData, GridStructureDefinition } from '../types/core/GridTypes';
 import { RenderListeners, RenderTarget } from '../types/core/RenderData';
 import EngineHelp from './EngineHelp';
 import AbstractRenderer from './renderer/AbstractRenderer';
@@ -9,8 +9,8 @@ abstract class AbstractEngine {
 
   private target:RenderTarget;
 
-  constructor(gridLayout:GridStructureDefinition, target:RenderTarget) {
-    this.gridLayout = gridLayout;
+  constructor(renderData:GridRenderData, target:RenderTarget) {
+    this.gridLayout = renderData.layout;
     this.target = target;
 
     this.renderer = null;

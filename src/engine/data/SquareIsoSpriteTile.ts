@@ -1,6 +1,6 @@
-import SpriteTile from './SpriteTile';
+import AbstractTile from './AbstractTile';
 
-class SquareIsoSpriteTile extends SpriteTile {
+class SquareIsoSpriteTile extends AbstractTile {
 
 }
 

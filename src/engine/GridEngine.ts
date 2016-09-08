@@ -1,4 +1,4 @@
-import { GridStructureDefinition } from '../types/core/GridTypes';
+import { GridRenderData } from '../types/core/GridTypes';
 import { RenderListeners, RenderTarget } from '../types/core/RenderData';
 import AbstractEngine from './AbstractEngine';
 import AbstractGrid from './data/AbstractGrid';
@@ -9,8 +9,8 @@ import PhaserRenderer from './renderer/phaser/PhaserRenderer';
 class GridEngine extends AbstractEngine {
   private grid:AbstractGrid;
 
-  constructor(gridLayout:GridStructureDefinition, target:RenderTarget = null) {
-    super(gridLayout, target);
+  constructor(renderData:GridRenderData, target:RenderTarget = null) {
+    super(renderData, target);
 
     this.grid = null;
   }

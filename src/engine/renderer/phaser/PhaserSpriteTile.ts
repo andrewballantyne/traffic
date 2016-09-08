@@ -29,7 +29,7 @@ class PhaserSpriteTile extends PhaserDisplayObject {
     this.game.add.sprite(
       position.x,
       position.y,
-      'sampleSet',
+      EngineHelp.ATLAS_TILES,
       type,
       this.phaserObj
     )

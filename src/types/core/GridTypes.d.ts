@@ -1,6 +1,8 @@
 /* Types related to the grid and aspects of it */
 
 import TileType from '../../enums/TileType';
+import VehicleTypes from '../../enums/VehicleTypes';
+import { Point } from './MathDataTypes';
 
 /**
  * A standard col.
@@ -22,4 +24,15 @@ export type GridStructureDefinition = GridStructure<GridCell>; // practical defi
 export type GridCell = {
   topType:TileType;
   zHeight:number;
+};
+
+export type GridItemData = Point & {
+  type:VehicleTypes;
+};
+
+export type GridItems = Array<GridItemData>;
+
+export type GridRenderData = {
+  items:GridItems;
+  layout:GridStructureDefinition;
 };

@@ -3,7 +3,9 @@
 
 import GridEngine from './engine/GridEngine';
 import TileType from './enums/TileType';
-import { GridColDefinition, GridStructureDefinition } from './types/core/GridTypes';
+import {
+  GridColDefinition, GridItems, GridRenderData, GridStructureDefinition,
+} from './types/core/GridTypes';
 
 class Main {
   public start():void {
@@ -94,7 +96,14 @@ class Main {
       col0, col1, col2, col3, col4, col5, col6, col7,
     ];
 
-    (new GridEngine(gridLayout)).start();
+    const gridItems:GridItems = [];
+
+    const renderData:GridRenderData = {
+      items: gridItems,
+      layout: gridLayout,
+    };
+
+    (new GridEngine(renderData)).start();
   }
 }
 
