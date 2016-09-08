@@ -1,0 +1,9 @@
+# Project files
+node_modules
+out/bundle.js
+
+# Auto-gen files
+npm-debug.log
+
+# Misc files
+.idea

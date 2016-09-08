@@ -1,0 +1,204 @@
+{"frames": [
+
+{
+	"filename": "DIRT",
+	"frame": {"x":136,"y":1,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "GRASS",
+	"frame": {"x":270,"y":1,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "ROAD_GRASS_NE",
+	"frame": {"x":1,"y":102,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "ROAD_GRASS_NE_SE",
+	"frame": {"x":135,"y":102,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "ROAD_GRASS_NE_SE_SW",
+	"frame": {"x":269,"y":102,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "ROAD_GRASS_NE_SW",
+	"frame": {"x":1,"y":203,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "ROAD_GRASS_NW",
+	"frame": {"x":135,"y":203,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "ROAD_GRASS_NW_NE",
+	"frame": {"x":269,"y":506,"w":132,"h":98},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":98},
+	"sourceSize": {"w":132,"h":98}
+},
+{
+	"filename": "ROAD_GRASS_NW_NE_SE_SW",
+	"frame": {"x":269,"y":203,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "ROAD_GRASS_NW_SE",
+	"frame": {"x":1,"y":304,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "ROAD_GRASS_NW_SE_MEDIUM_GRASS",
+	"frame": {"x":1,"y":1,"w":133,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":133,"h":99},
+	"sourceSize": {"w":133,"h":99}
+},
+{
+	"filename": "ROAD_GRASS_NW_SW",
+	"frame": {"x":135,"y":304,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "ROAD_GRASS_SE",
+	"frame": {"x":269,"y":304,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "ROAD_GRASS_SE_SW",
+	"frame": {"x":1,"y":405,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "ROAD_GRASS_SW",
+	"frame": {"x":135,"y":405,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "WATER",
+	"frame": {"x":269,"y":606,"w":132,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":83},
+	"sourceSize": {"w":132,"h":83}
+},
+{
+	"filename": "WATER_GRASS_E",
+	"frame": {"x":1,"y":607,"w":132,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":83},
+	"sourceSize": {"w":132,"h":83}
+},
+{
+	"filename": "WATER_GRASS_E_S",
+	"frame": {"x":135,"y":607,"w":132,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":83},
+	"sourceSize": {"w":132,"h":83}
+},
+{
+	"filename": "WATER_GRASS_N",
+	"frame": {"x":269,"y":405,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "WATER_GRASS_N_E",
+	"frame": {"x":1,"y":506,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "WATER_GRASS_N_W",
+	"frame": {"x":135,"y":506,"w":132,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":99},
+	"sourceSize": {"w":132,"h":99}
+},
+{
+	"filename": "WATER_GRASS_S",
+	"frame": {"x":269,"y":691,"w":132,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":83},
+	"sourceSize": {"w":132,"h":83}
+},
+{
+	"filename": "WATER_GRASS_S_W",
+	"frame": {"x":1,"y":692,"w":132,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":83},
+	"sourceSize": {"w":132,"h":83}
+},
+{
+	"filename": "WATER_GRASS_W",
+	"frame": {"x":135,"y":692,"w":132,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":83},
+	"sourceSize": {"w":132,"h":83}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sampleSet.png",
+	"format": "RGBA8888",
+	"size": {"w":403,"h":776},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e2542be71f42e8123f63dd3a5749e9d4:8792ea7341fd3f1473681bd1092018b7:5c836b331af8120b8511feea88141ff9$"
+}
+}

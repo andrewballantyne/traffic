@@ -1,0 +1,19 @@
+{
+  "name": "traffic",
+  "version": "0.0.1",
+  "description": "A minor traffic game.",
+  "scripts": {
+    "lint": "tslint src/**/*.ts* || echo ---",
+    "browserify": "browserify src/main.ts -p [ tsify --jsx react --noImplicitAny ] > out/bundle.js || echo ---",
+    "pack": "npm run browserify && npm run lint"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "tsify": "^1.0.3",
+    "tslint": "^3.14.0",
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+    "phaser": "^2.6.2"
+  }
+}
